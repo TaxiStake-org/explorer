@@ -19,14 +19,14 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://ping.pub/logo.svg',
+      icon: '/logo.png',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
       title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
+      href: 'https://explorer.taxistake.com',
       icon: 'ChromeIcon',
     })
   } else {
@@ -38,17 +38,17 @@ function processMenu() {
   }
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/ping_pub',
+    href: 'https://twitter.com/TaxiStake',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
-    title: 'FAQ',
-    href: 'https://github.com/ping-pub/explorer/discussions',
+    title: 'About',
+    href: 'https://taxistake.com/',
     icon: 'MessageSquareIcon',
   })
   chainMenus.push({
     title: 'Github',
-    href: 'https://github.com/ping-pub/explorer',
+    href: 'https://github.com/TaxiStake-org/explorer',
     icon: 'GithubIcon',
   })
 
