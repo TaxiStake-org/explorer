@@ -12,7 +12,7 @@ body {
 .loading-logo {
   position: absolute;
   left: calc(50% - 45px);
-  top: 40%;
+  top: 37%;
 }
 .loading {
   position: absolute;
