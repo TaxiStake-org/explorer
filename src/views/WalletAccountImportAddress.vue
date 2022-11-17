@@ -14,7 +14,7 @@
     </b-alert>
     <form-wizard
       ref="wizard"
-      color="#7367F0"
+      color="#fab005"
       :title="null"
       :subtitle="null"
       shape="square"
